@@ -1,0 +1,49 @@
+/* إعدادات خلفية الصفحة */
+.footer-message{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red; /* تغيير لون الخلفية إلى الأحمر */
+    color: white; /* تغيير لون النص إلى الأبيض */
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, sans-serif;}
+.v1{
+    background-color: red;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('photo_2024-10-10_02-15-24.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* تنسيق صندوق الفيديوهات */
+.video-container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* خلفية شفافة خلف الفيديوهات */
+    border-radius: 10px;
+    width: 60%; /* يمكن تعديل العرض حسب رغبتك */
+    max-width: 800px;
+}
+
+/* تنسيق عناوين الفيديوهات */
+h1.v1, h1.h1n {
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+video {
+    margin: 10px 0;
+    width: 100%; /* سيتم ضبط عرض الفيديو ليتناسب مع عرض الصندوق */
+    max-width: 400px; /* الحد الأقصى لعرض الفيديو */
+    height: auto;
+}
